@@ -11,6 +11,8 @@ body {
 #calculator{
     width: 300px;
     height: 450px;
+    position: relative;
+    top: 60px;
     /* background-color: #0d1b2a; */
     background-image: linear-gradient(to right top, #344b6e, #1a5b71, #276869, #4a725d, #6e7858);
     border-radius: 10px;
@@ -59,7 +61,4 @@ button:hover{
 button:active{
     transform: scale(1.05);
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 19), 0 1.5px 1.5px rgba(0, 0, 0, 23);
-}
-p{
-    color: bisque;
 }
